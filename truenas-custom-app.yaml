@@ -14,5 +14,7 @@ services:
       - santa_adam=pm_santa:0.7,am_adam:0.3
       - --voice
       - dora_heart=pf_dora:0.5,af_heart:0.5
+      - --voice
+      - santa=pm_santa
     ports:
       - 10200:10200
